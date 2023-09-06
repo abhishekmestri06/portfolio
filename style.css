@@ -155,7 +155,7 @@ ul li a:hover {
 	gap: 1rem;
 }
 
-.action_btn button {
+.action_btn a{
 	font-size: 1rem;
 	font-weight: 600;
 	letter-spacing: 2px;
@@ -166,6 +166,8 @@ ul li a:hover {
 	transition: 0.3s;
 	cursor: pointer;
 }
+
+
 
 .resume {
 /*
@@ -273,7 +275,7 @@ ul li a:hover {
 }
 
 
-.c-s-btn button{
+.c-s-btn a{
 
 	font-size: 1rem;
 	font-weight: 600;
@@ -293,6 +295,7 @@ ul li a:hover {
 .purplle-case-study {
 	color: var(--text-dark);
 	border-color: var(--primary-color);
+	background-color: #ffffff;
 		outline: none;
 	border: 2px solid var(--primary-color);
 	border-radius: 10px;
@@ -306,6 +309,7 @@ ul li a:hover {
 .groww-case-study {
 	color: var(--text-dark);
 	border-color: #00805F;
+	background-color: #ffffff;
 	outline: none;
 	border: 2px solid #00805F;
 	border-radius: 10px;
