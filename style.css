@@ -159,10 +159,10 @@ ul li a:hover {
 	font-size: 1rem;
 	font-weight: 600;
 	letter-spacing: 2px;
-	padding: 1rem 2rem;
+	padding: 0.6rem 2rem;
 	outline: none;
 	border: 2px solid var(--text-dark);
-	border-radius: 10px;
+	border-radius: 8px;
 	transition: 0.3s;
 	cursor: pointer;
 }
@@ -176,7 +176,6 @@ ul li a:hover {
 */
 	BACKGROUND-color: var(--text-dark);
 	color: #ffffff;
-
 
 }
 
@@ -242,6 +241,10 @@ ul li a:hover {
 	background-color: #EAFFF3;	
 }
 
+.saah {
+	background-color: #EDEDED;	
+}
+
 .name-cta {
 	/*
 	border: 0.5rem solid blue;
@@ -261,6 +264,11 @@ ul li a:hover {
 	border: 0.5rem solid yellow;
 	*/
 	width: 70%;
+}
+
+.name .pp {
+	font-size: 1rem;
+		color: #585858;
 }
 
 .project-name  {
@@ -293,6 +301,25 @@ ul li a:hover {
 	justify-content: center;
 }
 
+
+.c-s-btn-c-to-d a
+{
+	font-size: 0.8rem;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding: 0.6rem 1rem;
+
+	transition: 0.3s;
+	cursor: pointer;
+
+	display: flex;
+	gap: 1rem;
+
+	align-items: center;
+	justify-content: center; 	
+}
+
+
 .purplle-case-study {
 	color: var(--text-dark);
 	border-color: var(--primary-color);
@@ -320,6 +347,28 @@ ul li a:hover {
 	background-color: #00805F;
 	color: #ffffff;
 }
+
+
+.purplle-case-study:hover {
+	background-color: var(--primary-color-dark);
+	color: #ffffff;
+}
+
+
+.saah-case-study {
+	color: var(--text-dark);
+	border-color: var(--primary-color);
+	background-color: #ffffff;
+		outline: none;
+	border: 2px solid #232323;
+	border-radius: 10px;
+}
+
+.saah-case-study:hover {
+		background-color: #232323;
+	color: #ffffff;
+}
+
 
 .project-img {
 	display: flex;
