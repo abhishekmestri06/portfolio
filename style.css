@@ -242,8 +242,12 @@ ul li a:hover {
 }
 
 .saah {
-	background-color: #EDEDED;	
+	background-color: #ECEAFD	
 }
+
+.coach-dashboard {
+	background-color: #EDEDED;
+	}
 
 .name-cta {
 	/*
