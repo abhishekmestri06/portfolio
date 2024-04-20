@@ -497,7 +497,7 @@ hr.solid {
 
 
 
-@media (width < 750px) {
+@media (width < 900px) {
 
 	body {
 		padding: 1.5rem;
@@ -537,6 +537,12 @@ hr.solid {
 	}
 
 
+
+
+	.c-s-btn a
+	{
+		padding: 1rem 1rem;
+	}
 
 
 	.section_container {
