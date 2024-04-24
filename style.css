@@ -242,12 +242,17 @@ ul li a:hover {
 }
 
 .saah {
-	background-color: #ECEAFD	
+	background-color: #EDEDED	
 }
 
 .coach-dashboard {
-	background-color: #EDEDED;
+	background-color: ;
 	}
+
+	.fitness-coach-dashboard {
+		background-color: #EAEAFB;
+	}
+
 
 .name-cta {
 	/*
@@ -374,6 +379,19 @@ ul li a:hover {
 }
 
 
+.fitness-coach-dashboard-case-study {
+		color: #2F27CE;
+	border-color: var(--primary-color);
+	background-color: #ffffff;
+		outline: none;
+	border: 2px solid #2F27CE;
+	border-radius: 10px;
+}
+
+.fitness-coach-dashboard-case-study:hover {
+			background-color: #2F27CE;
+	color: #ffffff;
+}
 .project-img {
 	display: flex;
 	justify-content: center;
