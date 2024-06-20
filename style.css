@@ -122,12 +122,12 @@ ul li a:hover {
 	color: var(--background-hover);
 }
 
-.action_button {
+.action_button,.action_button_resume {
 			display: flex;
 		gap: 1rem;
 }
 
-.action_button a {
+.action_button a , .action_button_resume a{
 
 	font-size: 1rem;
 	font-weight: 600;
@@ -212,12 +212,12 @@ ul li a:hover {
 }
 
 
-.action_button {
+.action_button, .action_button_resume {
 			display: flex;
 		gap: 1rem;
 }
 
-.action_button a {
+.action_button a , .action_button_resume a{
 
 	font-size: 1rem;
 	font-weight: 600;
@@ -365,9 +365,30 @@ ul li a:hover {
 
 }
 
+.tags-freelance
+{
+  display: inline-block;
+  padding: 8px 16px;
+  height: auto;
+  background-color: red;
+  
+
+  border-radius: 4px;
+}
+
 .name .pp {
 	font-size: 1rem;
-		color: #585858;
+
+}
+
+.freelance
+{
+	color: #DB2810;
+}
+
+.personal
+{
+	color: #0015D5;
 }
 
 .project-name  {
@@ -454,10 +475,12 @@ ul li a:hover {
 	background-color: ;
 	outline: 2px solid #00805F;
 	border-bottom: 2px solid #00805F;
-	border-radius: 10px;
+	border-radius: 0px;
+
 }
 
 .groww-case-study-overview:hover {
+	border-radius: 10px;
 	background-color: #00805F;
 	color: #ffffff;
 }
@@ -738,7 +761,7 @@ hr.solid {
 }
 
 
-.action_button a {
+.action_button a .action_button_resume a{
 
 	padding: 0.6rem 1.5rem;
 
@@ -753,7 +776,7 @@ hr.solid {
 }
 
 @media (min-width: 400px) {
-.action_button a {
+.action_button a ,.action_button_resume a{
 
 	padding: 0.6rem 1.5rem;
 
@@ -764,6 +787,18 @@ hr.solid {
   gap: 1rem;
   font-size: 1rem;
   
+}
+
+.action_button {
+	width: 100%;
+}
+
+}
+
+
+@media (max-width: 700px) {
+.action_button{
+	flex-direction: column;
 }
 
 }
