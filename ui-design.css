@@ -1,0 +1,188 @@
+
+.ui-designs
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: whitesmoke;
+    border-radius: 24px;
+    padding: 3rem;
+}
+
+.ui-projects {
+    padding: 0 !important;
+}
+/**
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    max-width: 1250px;
+ 
+   
+    gap: 20px;
+}
+.card-list .card-item {
+    background: #fff;
+    padding: 26px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: border 0.5s ease;
+}
+.card-list .card-item:hover {
+    border: 2px solid #000;
+}
+.card-list .card-item img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.card-list span {
+    display: inline-block;
+    background: #F7DFF5;
+    margin-top: 32px;
+    padding: 8px 15px;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.card-list .developer {
+    background-color: #F7DFF5; 
+    color: #B22485;
+}   
+
+
+.card-item h3 {
+    color: #000;
+    font-size: 1.438rem;
+    margin-top: 28px;
+    font-weight: 600;
+}
+
+
+@media (max-width: 1200px) {
+    .card-list .card-item {
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .card-list {
+        margin: 0 auto;
+    }
+
+**/
+
+
+.card-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 3rem;
+}
+
+
+.card-container .card
+{
+    width: 48%;
+    background-color: #EDF3F6;
+    overflow: hidden;
+    border-radius: 0.5rem;
+
+}
+
+.card img
+{
+    width: 100%;
+    height: auto;
+}
+
+.card-content
+{
+    padding: 1rem;
+}
+
+.card-content .ui-title
+{
+        font-size: 1.5rem;
+    color: var(--text-dark);
+}
+
+
+@media (width < 1500px) {
+
+
+.card-container
+{
+    gap: 4rem;
+}
+.card-container .card
+{
+    width: 47%;
+}
+
+}
+
+@media (width < 1500px) {
+
+
+.card-container
+{
+    gap: 5rem;
+}
+.card-container .card
+{
+    width: 46%;
+}
+
+}
+
+
+@media (width < 1300px) {
+
+
+.card-container
+{
+    gap: 4rem;
+}
+
+}
+
+@media (width < 1200px) {
+
+.ui-designs
+{
+    padding: 2rem;
+}
+.card-container
+{
+    gap: 3rem;
+}
+
+}
+
+@media (width < 750px) {
+
+
+.card-container
+{
+    flex-direction: column;
+    gap: 3rem;
+}
+.card-container .card
+{
+    width: 100%;
+}
+.card-content .ui-title
+{
+        font-size: 1.5rem;
+}
+
+}
+
